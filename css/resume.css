@@ -31,8 +31,6 @@ border-color:purple;
   align-items: center;      /* Align the items vertically (optional) */
   gap: 20px;                  /* Adds space between the items */
   text-align: center;         /* Ensure the text itself is centered */
-}
-
-p {
   margin: 0;                  /* Remove default margin to keep the text inline */
 }
+
