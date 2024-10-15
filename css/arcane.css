@@ -1,5 +1,9 @@
-body {
+/* body {
   background-image: url("../images/lightcolorbg.JPG");
-  background-size: 100% 100%; /* Stretches the image to fit both width and height */
+  background-size: 100% 100%; /* Stretches the image to fit both width and height
   background-repeat: no-repeat;
+} */
+
+body {
+  background-color: #98a0d9
 }
