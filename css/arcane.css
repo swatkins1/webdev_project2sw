@@ -114,7 +114,10 @@ hr {
   margin: 0;                  /* Remove default margin to keep the text inline */
 }
 
-
+h2 {
+  color: purple;
+  text-align: center;
+}
 
 h3 {
   color: purple;
