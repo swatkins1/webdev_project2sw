@@ -1,3 +1,53 @@
+header {
+    text-align: center;        /* Center text inside the header */
+    margin-bottom: 20px;       /* Add space below the header */
+}
+
+nav ul {
+    list-style-type: none;     /* Remove default list styling (bullets) */
+    padding: 0;                /* Remove default padding */
+}
+
+nav ul li {
+    display: inline-block;     /* Display list items in a row */
+    margin-right: 15px;        /* Add space between links */
+}
+
+nav ul li:last-child {
+    margin-right: 0;           /* Remove margin after the last item */
+}
+
+nav a {
+    text-decoration: none;     /* Remove underline from links */
+    color: #000;               /* Change the color of the links */
+    font-weight: bold;         /* Make the text bold */
+}
+
+nav a:hover {
+    color: purple;             /* Add a hover effect */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
   background-color: #eedff0
 }
