@@ -85,3 +85,18 @@ hr {
   margin: 0;                  /* Remove default margin to keep the text inline */
 }
 
+
+
+h3 {
+  color: purple;
+  text-align: center;
+}
+ul {
+  color: purple;
+  text-align: center;
+}
+
+li {
+  color: purple;
+  text-align: center;
+}
