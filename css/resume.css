@@ -70,9 +70,10 @@ hr {
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    height: 1px;           /* Set the thickness of the line */
-    border: none;          /* Remove any borders */
-    background-color: purple; /* Make the entire line purple */
+    height: 1px;                /* Set the exact thickness */
+    border: none;               /* Remove all border styles */
+    background-color: purple;    /* Make the entire line purple */
+    width: 100%;                /* Set the width to be consistent */
 }
 
 
