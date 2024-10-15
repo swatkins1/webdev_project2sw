@@ -1,3 +1,6 @@
 body {
   background-image: url("../images/lightcolorbg.JPG");
+  background-size: cover; /* Stretches the image to cover the entire background */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  background-position: center; /* Centers the image */
 }
