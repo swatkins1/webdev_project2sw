@@ -132,16 +132,17 @@ li {
   text-align: center;
 }
 
-
+/*
 h2 {
   color: purple;
    font-family: 'Brush Script MT', cursive;
   text-align: center;
 }
+*/
 
-
-.indie-flower-regular {
+h2.indie-flower-regular {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
+    color: green;
 }
