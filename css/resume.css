@@ -1,33 +1,61 @@
+
 header {
-    text-align: center;        /* Center text inside the header */
-    margin-bottom: 20px;       /* Add space below the header */
+  background-color: #f8f8f8; 
+  padding: 2rem;
+  border-radius: 0.5rem; 
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; 
+  width: 100%; 
+  text-align: center; 
 }
+
+
+header h2 {
+  margin-top: 1.5rem; 
+  font-size: 1.25rem; 
+  color: purple;
+}
+
 
 nav ul {
-    list-style-type: none;     /* Remove default list styling (bullets) */
-    padding: 0;                /* Remove default padding */
+  list-style-type: none; 
+  padding: 0;
+  display: flex; 
+  justify-content: space-between; 
+  width: 90%; 
+  margin: 0 auto; 
 }
+
 
 nav ul li {
-    display: inline-block;     /* Display list items in a row */
-    margin-right: 15px;        /* Add space between links */
+  flex: 1; 
+  background-color: #f0f0f0; 
+  padding: 1.5rem 0; 
+  border-radius: 0.5rem; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1); 
+  margin: 0 1rem; 
 }
 
-nav ul li:last-child {
-    margin-right: 0;           /* Remove margin after the last item */
+
+nav ul li:hover {
+  background-color: purple;
+  transform: scale(1.05);
 }
+
 
 nav a {
-    text-decoration: none;     /* Remove underline from links */
-    color: #000;               /* Change the color of the links */
-    font-weight: bold;         /* Make the text bold */
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.125rem; 
+  transition: color 0.3s ease;
 }
 
-nav a:hover {
-    color: purple;             /* Add a hover effect */
+
+nav ul li:hover a {
+  color: white;
 }
-
-
 
 
 
