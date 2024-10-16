@@ -140,9 +140,17 @@ h2 {
 }
 */
 
-h2.indie-flower-regular {
+/* h2.indie-flower-regular {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
     color: green;
+} */
+
+
+h2 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: green; /* Optional color, you can remove or change this */
 }
