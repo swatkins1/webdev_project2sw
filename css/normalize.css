@@ -265,26 +265,11 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 /**
- * Remove excess styling from search inputs in WebKit and Firefox.
+ * Remove excess styling from search inputs.
  */
 input[type="search"] {
     appearance: none;
     box-sizing: content-box;
-}
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome.
- */
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
-    appearance: none;
-}
-
-/**
- * Remove inner padding and border in Firefox.
- */
-button::-moz-focus-inner, input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
 }
 
 /**
