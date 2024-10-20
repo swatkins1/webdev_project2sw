@@ -99,34 +99,26 @@ body {
 
 
 
-header {
-    text-align: center;        /* Center text inside the header */
-    margin-bottom: 20px;       /* Add space b elow the header */
+
+.colorblock {
+  background-color: #A2D6F9;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: center; 
+  border: 10px solid #157F1F; 
+  border-radius: 15px;
+  width: 80%; 
+  max-width: 700px; 
 }
 
-nav ul {
-    list-style-type: none;     /* Remove default list styling (bullets) */
-    padding: 0;                /* Remove default padding */
+.colorblock img {
+  width: 50%; 
+  max-width: 300px; 
+  height: auto; 
 }
 
-nav ul li {
-    display: inline-block;     /* Display list items in a row */
-    margin-right: 15px;        /* Add space between links */
-}
 
-nav ul li:last-child {
-    margin-right: 0;           /* Remove margin after the last item */
-}
 
-nav a {
-    text-decoration: none;     /* Remove underline from links */
-    color: #000;               /* Change the color of the links */
-    font-weight: bold;         /* Make the text bold */
-}
-
-nav a:hover {
-    color: purple;             /* Add a hover effect */
-}
 
 
 
@@ -152,12 +144,12 @@ nav a:hover {
 
 
 h1 {
-  color: purple;
+  color: green;
   text-align: center;
 }
 
 p {
-  color: purple;
+  color: green;
   font-family: verdana;
   font-size: 20px;
   text-align: center;
@@ -166,72 +158,8 @@ p {
 
 
 
-hr {
-            display: block;
-            margin-top: 0.7em;
-            margin-bottom: 0.7em;
-            margin-left: auto;
-            margin-right: auto;
-            height: 2px;
-            width: 70%;
-            max-width: 100%;
-            border: none;
-            background-color: purple;
-        } 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contact-info {
-  display: flex;             /* Use Flexbox */
-  justify-content: center;    /* Center the content horizontally */
-  align-items: center;      /* Align the items vertically (optional) */
-  gap: 20px;                  /* Adds space between the items */
-  text-align: center;         /* Ensure the text itself is centered */
-  margin: 0;                  /* Remove default margin to keep the text inline */
-}
-
-
-
-h3 {
-  color: purple;
-  text-align: center;
-}
-ul {
-  color: purple;
-  text-align: center;
-}
-
-li {
-  color: purple;
-  text-align: center;
-}
-
-/*
-h2 {
-  color: purple;
-   font-family: 'Brush Script MT', cursive;
-  text-align: center;
-}
-*/
-
-/* h2.indie-flower-regular {
-  font-family: "Indie Flower", cursive
-} */
 
 
 h2 {
