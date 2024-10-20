@@ -93,58 +93,50 @@ nav ul li:hover a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* body {
-  background-image : url("../images/lightcolorbg.JPG");
-  background-size: 100% 100%; /* Stretches the image to fit both width and height
-  background-repeat: no-repeat;
-} */
-
 body {
-  background-color: #98a0d9
+  background-color: #98A0D9
 }
 
 
-header {
-    text-align: center;        /* Center text inside the header */
-    margin-bottom: 20px;       /* Add space below the header */
+
+
+.evenarcane {
+  background-color: #ABFAA9;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: right; 
+  border: 10px solid #82D173; 
+  border-radius: 15px;
+  width: 80%; 
+  max-width: 700px; 
 }
 
-nav ul {
-    list-style-type: none;     /* Remove default list styling (bullets) */
-    padding: 0;                /* Remove default padding */
+.evenarcane img {
+  width: 50%; 
+  max-width: 300px; 
+  height: auto; 
 }
 
-nav ul li {
-    display: inline-block;     /* Display list items in a row */
-    margin-right: 15px;        /* Add space between links */
+
+.oddarcane {
+  background-color: #72429E;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: ;left; 
+  border: 10px solid #42253B; 
+  border-radius: 15px;
+  width: 80%; 
+  max-width: 700px; 
 }
 
-nav ul li:last-child {
-    margin-right: 0;           /* Remove margin after the last item */
+.oddarcane img {
+  width: 50%; 
+  max-width: 300px; 
+  height: auto; 
 }
 
-nav a {
-    text-decoration: none;     /* Remove underline from links */
-    color: #000;               /* Change the color of the links */
-    font-weight: bold;         /* Make the text bold */
-}
 
-nav a:hover {
-    color: purple;             /* Add a hover effect */
-}
+
 
 
 
@@ -169,75 +161,43 @@ nav a:hover {
 
 
 h1 {
-  color: purple;
+  color: white;
   text-align: center;
 }
 
-p {
-  color: purple;
+.oddarcane p {
+  color: white;
   font-family: verdana;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
+}
+
+.evenarcane p {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+    text-align: right;
 }
 
 
 
 
-hr {
-            display: block;
-            margin-top: 0.7em;
-            margin-bottom: 0.7em;
-            margin-left: auto;
-            margin-right: auto;
-            height: 2px;
-            width: 70%;
-            max-width: 100%;
-            border: none;
-            background-color: purple;
-        } 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contact-info {
-  display: flex;             /* Use Flexbox */
-  justify-content: center;    /* Center the content horizontally */
-  align-items: center;      /* Align the items vertically (optional) */
-  gap: 20px;                  /* Adds space between the items */
-  text-align: center;         /* Ensure the text itself is centered */
-  margin: 0;                  /* Remove default margin to keep the text inline */
+.evenarcane h2 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+   font-size: 50px;
+  font-style: normal;
+  color: white; /* Optional color, you can remove or change this */
 }
 
-h2 {
-  color: purple;
-  text-align: center;
-  font-family: 'Brush Script MT', cursive;
-}
-
-h3 {
-  color: purple;
-  text-align: center;
-}
-ul {
-  color: purple;
-  text-align: center;
-}
-
-li {
-  color: purple;
-  text-align: center;
+.oddarcane h2 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+   font-size: 50px;
+  font-style: normal;
+  color: white; /* Optional color, you can remove or change this */
 }
