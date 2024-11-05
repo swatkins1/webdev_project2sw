@@ -289,7 +289,8 @@
   align-items: center;
 }
 #ArcaneCSS .container img {
-  max-width: 100px;
+  width: 100px;        /* Fixed image width */
+  height: 100px;       /* Fixed image height */
   margin-right: 10px;
 }
 #ArcaneCSS .container p {
@@ -309,9 +310,9 @@
   max-width: 700px;
 }
 #ArcaneCSS .evenarcane img {
-  width: 50%;
-  max-width: 300px;
-  height: auto;
+  width: 100px;        /* Fixed image width */
+  height: 100px;       /* Fixed image height */
+  margin-bottom: 20px;  /* Space below the image */
 }
 #ArcaneCSS .oddarcane {
   background-color: #72429E;
@@ -324,9 +325,9 @@
   max-width: 700px;
 }
 #ArcaneCSS .oddarcane img {
-  width: 50%;
-  max-width: 300px;
-  height: auto;
+  width: 100px;       /* Fixed image width */
+  height: 100px;      /* Fixed image height */
+  margin-bottom: 20px; /* Space below the image */
 }
 #ArcaneCSS h1 {
   color: white;
@@ -365,10 +366,10 @@
   color: white;
 }
 #ArcaneCSS .evenarcane img, .oddarcane img {
-  width: auto;
-  height: 100%;
-  max-height: 100%;
-  object-fit: contain;
+  width: 100px;        /* Fixed image width */
+  height: 100px;       /* Fixed image height */
+  margin-bottom: 20px;  /* Space below the image */
+  object-fit: contain;  /* Ensure the image fits well without distortion */
 }
 #ArcaneCSS .conclusion {
   background-color: #2929ba;
@@ -398,18 +399,3 @@
   height: 315px;
   border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
