@@ -1,4 +1,5 @@
-header {
+/* MIX FLUID AND FIXED page Arcane css */
+#ArcaneCSS header {
   background-color: #C7E1FF;
   padding: 2rem;
   border-radius: 0.5rem;
@@ -7,7 +8,7 @@ header {
   width: 100%;
   text-align: center;
 }
-header h2 {
+#ArcaneCSS header h2 {
   margin-top: 0;
   padding: 1rem;
   font-size: 2rem;
@@ -20,10 +21,10 @@ header h2 {
   margin: 0 auto;
   box-shadow: 0 0.2rem 0.5rem #E068;
 }
-nav {
+#ArcaneCSS nav {
   margin-top: 2rem;
 }
-nav ul {
+#ArcaneCSS nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -31,7 +32,7 @@ nav ul {
   width: 90%;
   margin: 0 auto;
 }
-nav ul li {
+#ArcaneCSS nav ul li {
   flex: 1;
   background-color: #E0D6FF;
   padding: 1.5rem 0;
@@ -40,35 +41,35 @@ nav ul li {
   box-shadow: 0 0.2rem 0.5rem #E068;
   margin: 0 1rem;
 }
-nav ul li:hover {
+#ArcaneCSS nav ul li:hover {
   background-color: #C12A7B;
   transform: scale(1.1);
 }
-nav a {
+#ArcaneCSS nav a {
   font-family: "Holtwood One SC", serif;
   text-decoration: none;
   color: #C12A7B;
   font-size: 1.125rem;
   transition: color 1s ease;
 }
-nav ul li:hover a {
+#ArcaneCSS nav ul li:hover a {
   color: white;
 }
-.container {
+#ArcaneCSS .container {
   display: flex;
   align-items: center;
 }
-.container img {
+#ArcaneCSS .container img {
   max-width: 100px;
   margin-right: 10px;
 }
-.container p {
+#ArcaneCSS .container p {
   margin: 0;
 }
-body {
+#ArcaneCSS body {
   background-color: #98A0D9;
 }
-.evenarcane {
+#ArcaneCSS .evenarcane {
   background-color: #ABFAA9;
   padding: 20px;
   margin: 10px auto;
@@ -78,12 +79,12 @@ body {
   width: 80%;
   max-width: 700px;
 }
-.evenarcane img {
+#ArcaneCSS .evenarcane img {
   width: 50%;
   max-width: 300px;
   height: auto;
 }
-.oddarcane {
+#ArcaneCSS .oddarcane {
   background-color: #72429E;
   padding: 20px;
   margin: 10px auto;
@@ -93,54 +94,54 @@ body {
   width: 80%;
   max-width: 700px;
 }
-.oddarcane img {
+#ArcaneCSS .oddarcane img {
   width: 50%;
   max-width: 300px;
   height: auto;
 }
-h1 {
+#ArcaneCSS h1 {
   color: white;
   text-align: center;
   font-size: 50px;
 }
-h2 {
+#ArcaneCSS h2 {
   color: white;
   text-align: center;
   font-size: 20px;
 }
-.oddarcane p {
+#ArcaneCSS .oddarcane p {
   color: white;
   font-family: verdana;
   font-size: 20px;
   text-align: left;
 }
-.evenarcane p {
+#ArcaneCSS .evenarcane p {
   color: black;
   font-family: verdana;
   font-size: 20px;
   text-align: right;
 }
-.evenarcane h2 {
+#ArcaneCSS .evenarcane h2 {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-size: 50px;
   font-style: normal;
   color: black;
 }
-.oddarcane h2 {
+#ArcaneCSS .oddarcane h2 {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-size: 50px;
   font-style: normal;
   color: white;
 }
-.evenarcane img, .oddarcane img {
+#ArcaneCSS .evenarcane img, .oddarcane img {
   width: auto;
   height: 100%;
   max-height: 100%;
   object-fit: contain;
 }
-.conclusion {
+#ArcaneCSS .conclusion {
   background-color: #2929ba;
   padding: 20px;
   margin: 20px auto;
@@ -151,17 +152,17 @@ h2 {
   max-width: 700px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
-.conclusion h2 {
+#ArcaneCSS .conclusion h2 {
   font-family: "Indie Flower", cursive;
   font-size: 40px;
   color: white;
 }
-.conclusion p {
+#ArcaneCSS .conclusion p {
   font-family: Verdana, Arial, sans-serif;
   font-size: 20px;
   color: white;
 }
-.conclusion iframe {
+#ArcaneCSS .conclusion iframe {
   margin-top: 20px;
   width: 100%;
   max-width: 560px;
