@@ -1,3 +1,4 @@
+
 header {
   background-color: #C7E1FF; 
   padding: 2rem;
@@ -252,7 +253,7 @@ h2 {
 }
 
 .conclusion p {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 20px;
   color: white;
 }
