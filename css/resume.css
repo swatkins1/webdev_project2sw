@@ -1,12 +1,4 @@
 
-.main {
-  padding: 2rem 0; 
-}
-
-section {
-  margin: 2rem 0; 
-}
-
 
 header {
   background-color: #C7E1FF; 
@@ -117,4 +109,13 @@ h3 {
 .main li {
   color: purple;
   text-align: center;
+}
+
+
+.main {
+  padding: 2rem 0; 
+}
+
+section {
+  margin: 2rem 0; 
 }
