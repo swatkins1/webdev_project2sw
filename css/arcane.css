@@ -67,10 +67,6 @@ nav ul li:hover a {
   align-items: center;      
 }
 
-.container img {
-  max-width: 6.25rem;       
-  margin-right: 0.625rem;   
-}
 
 .container p {
   margin: 0;               
@@ -101,11 +97,6 @@ body {
   text-align: left; 
 }
 
-.evenarcane img, .oddarcane img {
-  width: 50%; 
-  max-width: 30vw; 
-  height: auto; 
-}
 
 h1 {
   color: white;
@@ -161,4 +152,24 @@ h2 {
   max-width: 35vw;
   height: 17.5vw;
   border: none;
+}
+
+.evenarcane img, .oddarcane img {
+  width: 100%; /* Adjust to the maximum width of the container */
+  max-width: 40vw; /* Limits image to 40% of viewport width to prevent overflow */
+  height: auto; /* Keeps the image’s aspect ratio */
+}
+
+.conclusion img {
+  width: 100%; /* Scale to fit container width */
+  max-width: 50vw; /* Ensures the image does not exceed 50% of viewport width */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Optional adjustments to ensure images within the container do not affect text styling */
+.container img {
+  max-width: 100%; /* Allows image to scale to fit within container */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Prevents alignment issues */
+  margin: 0 auto; /* Centers the image within container */
 }
