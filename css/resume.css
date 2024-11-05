@@ -1,4 +1,6 @@
-header {
+
+/*FIXED PAGE using px for resume*/
+#ResumeCSS header {
   background-color: #C7E1FF;
   padding: 32px;  /* 2rem = 32px */
   border-radius: 8px;  /* 0.5rem = 8px */
@@ -7,7 +9,7 @@ header {
   text-align: center;
 }
 
-header h2 {
+#ResumeCSS header h2 {
   margin-top: 0;
   padding: 16px;  /* 1rem = 16px */
   font-size: 32px;  /* 2rem = 32px */
@@ -21,11 +23,11 @@ header h2 {
   box-shadow: 0 3px 8px #E068;  /* 0.2rem = 3px, 0.5rem = 8px */
 }
 
-nav {
+#ResumeCSS nav {
   margin-top: 32px;  /* 2rem = 32px */
 }
 
-nav ul {
+#ResumeCSS nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -34,7 +36,7 @@ nav ul {
   margin: 0 auto;
 }
 
-nav ul li {
+#ResumeCSS nav ul li {
   flex: 1;
   background-color: #E0D6FF;
   padding: 24px 0;  /* 1.5rem = 24px */
@@ -44,12 +46,12 @@ nav ul li {
   margin: 0 16px;  /* 1rem = 16px */
 }
 
-nav ul li:hover {
+#ResumeCSS nav ul li:hover {
   background-color: #C12A7B;
   transform: scale(1.1);
 }
 
-nav a {
+#ResumeCSS nav a {
   font-family: "Holtwood One SC", serif;
   text-decoration: none;
   color: #C12A7B;
@@ -57,26 +59,26 @@ nav a {
   transition: color 1s ease;
 }
 
-nav ul li:hover a {
+#ResumeCSS nav ul li:hover a {
   color: white;
 }
 
 /* Body and typography styling */
-body {
+#ResumeCSS body {
   background-color: #eedff0;
   margin: 0;
   padding: 0;
   font-size: 16px;
 }
 
-h1 {
+#ResumeCSS h1 {
   color: purple;
   text-align: center;
   font-size: 50px;
   margin: 20px 0;
 }
 
-p {
+#ResumeCSS p {
   color: purple;
   font-family: Verdana, Arial, sans-serif;
   font-size: 20px;
@@ -84,7 +86,7 @@ p {
   margin: 10px 0;
 }
 
-.contact-info {
+#ResumeCSS .contact-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +95,7 @@ p {
   margin: 0;
 }
 
-h3 {
+#ResumeCSS h3 {
   color: purple;
   text-align: center;
   font-family: 'Brush Script MT', cursive;
@@ -101,11 +103,11 @@ h3 {
   margin: 20px 0;
 }
 
-.main {
+#ResumeCSS .main {
   padding: 30px 0;
 }
 
-.main ul {
+#ResumeCSS .main ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,13 +115,13 @@ h3 {
   margin: 0;
 }
 
-.main li {
+#ResumeCSS .main li {
   color: purple;
   text-align: center;
   font-size: 18px;
   margin: 8px 0;  /* 5px = 8px */
 }
 
-section {
+#ResumeCSS section {
   margin: 30px 0;
 }
