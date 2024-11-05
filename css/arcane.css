@@ -136,10 +136,11 @@
   color: white;
 }
 #ArcaneCSS .evenarcane img, .oddarcane img {
-  width: auto;
-  height: 100%;
-  max-height: 100%;
-  object-fit: contain;
+  width: 100%;        /* Make the image width 100% of its container */
+  height: auto;       /* Maintain aspect ratio */
+  max-width: none;    /* Remove max-width restriction */
+  max-height: 100%;   /* Ensure the height doesn't exceed the container's height */
+  object-fit: contain;/* Preserve aspect ratio while fitting within the box */
 }
 #ArcaneCSS .conclusion {
   background-color: #2929ba;
