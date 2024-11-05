@@ -95,9 +95,10 @@
   max-width: 700px;
 }
 #ArcaneCSS .oddarcane img {
-  width: 50%;
-  max-width: 300px;
-  height: auto;
+  width: 100%;       /* Make the image width 100% of its container */
+  height: auto;      /* Maintain aspect ratio */
+  max-width: none;   /* Remove max-width restriction */
+  object-fit: contain;/* Ensure the image is scaled properly without cropping */
 }
 #ArcaneCSS h1 {
   color: white;
