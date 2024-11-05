@@ -155,21 +155,13 @@ h2 {
 }
 
 .evenarcane img, .oddarcane img {
-  width: 100%; /* Adjust to the maximum width of the container */
-  max-width: 40vw; /* Limits image to 40% of viewport width to prevent overflow */
-  height: auto; /* Keeps the image’s aspect ratio */
+  width: 100%;      /* Set image to full width of container */
+  max-width: 100%;  /* Allow image to be as wide as the container */
+  height: auto;     /* Maintain aspect ratio */
 }
 
-.conclusion img {
-  width: 100%; /* Scale to fit container width */
-  max-width: 50vw; /* Ensures the image does not exceed 50% of viewport width */
-  height: auto; /* Maintains aspect ratio */
-}
-
-/* Optional adjustments to ensure images within the container do not affect text styling */
 .container img {
-  max-width: 100%; /* Allows image to scale to fit within container */
-  height: auto; /* Maintains aspect ratio */
-  display: block; /* Prevents alignment issues */
-  margin: 0 auto; /* Centers the image within container */
+  width: 12rem;        /* Increase size for images in .container */
+  max-width: 12rem;    /* Set a larger max width */
+  margin-right: 1rem;  /* Adjust margin for spacing */
 }
