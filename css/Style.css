@@ -227,6 +227,8 @@
   height: 17.5rem;
   border: none;
 }
+
+
 /* MIX FLUID AND FIXED page Arcane css */
 #ArcaneCSS header {
   background-color: #C7E1FF;
@@ -291,7 +293,8 @@
 #ArcaneCSS .container img {
   width: 100px;        /* Fixed image width */
   height: 100px;       /* Fixed image height */
-  margin-right: 10px;
+  margin-left: 10px;    /* Space to the left of the image */
+  margin-right: 10px;   /* Optional space to the right */
 }
 #ArcaneCSS .container p {
   margin: 0;
@@ -303,31 +306,35 @@
   background-color: #ABFAA9;
   padding: 20px;
   margin: 10px auto;
-  text-align: right;
+  text-align: left;     /* Align text to the left */
   border: 10px solid #82D173;
   border-radius: 15px;
   width: 80%;
   max-width: 700px;
+  display: flex;
+  align-items: center;
 }
 #ArcaneCSS .evenarcane img {
   width: 100px;        /* Fixed image width */
   height: 100px;       /* Fixed image height */
-  margin-bottom: 20px;  /* Space below the image */
+  margin-right: 20px;   /* Space to the right of the image */
 }
 #ArcaneCSS .oddarcane {
   background-color: #72429E;
   padding: 20px;
   margin: 10px auto;
-  text-align: left;
+  text-align: left;     /* Align text to the left */
   border: 10px solid #42253B;
   border-radius: 15px;
   width: 80%;
   max-width: 700px;
+  display: flex;
+  align-items: center;
 }
 #ArcaneCSS .oddarcane img {
   width: 100px;       /* Fixed image width */
   height: 100px;      /* Fixed image height */
-  margin-bottom: 20px; /* Space below the image */
+  margin-right: 20px;  /* Space to the right of the image */
 }
 #ArcaneCSS h1 {
   color: white;
@@ -349,7 +356,7 @@
   color: black;
   font-family: verdana;
   font-size: 20px;
-  text-align: right;
+  text-align: left;    /* Align text to the left */
 }
 #ArcaneCSS .evenarcane h2 {
   font-family: "Indie Flower", cursive;
@@ -368,7 +375,7 @@
 #ArcaneCSS .evenarcane img, .oddarcane img {
   width: 100px;        /* Fixed image width */
   height: 100px;       /* Fixed image height */
-  margin-bottom: 20px;  /* Space below the image */
+  margin-right: 20px;   /* Space to the right of the image */
   object-fit: contain;  /* Ensure the image fits well without distortion */
 }
 #ArcaneCSS .conclusion {
