@@ -228,8 +228,8 @@
   font-family: "Indie Flower", cursive;
   font-size: 2.5rem;
   color: black;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 #ColorCSS .conclusion p {
   font-family: Verdana, Arial, sans-serif;
@@ -337,6 +337,8 @@
   width: 50%;
   max-width: 300px;
   height: auto;
+  float: left; 
+  position: relative;
 }
 #ArcaneCSS .oddarcane {
   background-color: #72429E;
@@ -352,6 +354,8 @@
   width: 50%;
   max-width: 300px;
   height: auto;
+  float: right; 
+  position: relative; 
 }
 #ArcaneCSS h1 {
   color: white;
