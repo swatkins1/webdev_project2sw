@@ -108,14 +108,22 @@
 #ResumeCSS section {
   margin: 30px 0;
 }
+
+
+
+
+
+
 /*FLUID ONLY ColorScheme css page*/
 /* Basic Page Styling */
+/* Body Styling */
 #ColorCSS body {
   background-color: #dbf2c7;
   margin: 0;
   padding: 0;
   font-size: 1rem;
   line-height: 1.6;
+  position: relative; /* Added for positioning */
 }
 /* Header Styling */
 #ColorCSS header {
@@ -126,6 +134,8 @@
   margin-bottom: 2rem;
   width: 100%;
   text-align: center;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 #ColorCSS header h2 {
   margin-top: 0;
@@ -136,13 +146,17 @@
   font-family: "Holtwood One SC", serif;
   text-align: center;
   border-radius: 0.5rem;
-  max-width: 80%; /* Fluid maximum width */
+  max-width: 80%;
   margin: 0 auto;
   box-shadow: 0 0.2rem 0.5rem #E068;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 /* Navigation Styling */
 #ColorCSS nav {
   margin-top: 2rem;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 #ColorCSS nav ul {
   list-style-type: none;
@@ -152,6 +166,8 @@
   width: 90%;
   margin: 0 auto;
   gap: 1rem;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 #ColorCSS nav ul li {
   flex: 1;
@@ -160,20 +176,8 @@
   border-radius: 0.5rem;
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 0.2rem 0.5rem #E068;
-}
-#ColorCSS nav ul li:hover {
-  background-color: #C12A7B;
-  transform: scale(1.05);
-}
-#ColorCSS nav a {
-  font-family: "Holtwood One SC", serif;
-  text-decoration: none;
-  color: #C12A7B;
-  font-size: 1.125rem;
-  transition: color 1s ease;
-}
-#ColorCSS nav ul li:hover a {
-  color: white;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 /* Main Content Styling */
 #ColorCSS .colorblock, .conclusion {
@@ -184,18 +188,24 @@
   border: 0.625rem solid #157F1F;
   border-radius: 1rem;
   width: 80%;
-  max-width: 90%; /* Ensure fluid layout */
+  max-width: 90%;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 #ColorCSS .colorblock img, .conclusion img {
   width: 50%;
   max-width: 100%;
   height: auto;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 /* Header and Paragraph Styling */
 #ColorCSS h1, h2 {
   color: green;
   text-align: center;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 #ColorCSS p, .conclusion p {
   color: green;
@@ -203,22 +213,30 @@
   font-size: 1.25rem;
   text-align: center;
   margin: 0;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 #ColorCSS h2 {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   color: green;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 /* Conclusion Styling */
 #ColorCSS .conclusion h2 {
   font-family: "Indie Flower", cursive;
   font-size: 2.5rem;
   color: black;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 #ColorCSS .conclusion p {
   font-family: Verdana, Arial, sans-serif;
   font-size: 1.25rem;
   color: black;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
 #ColorCSS .conclusion iframe {
   margin-top: 1.25rem;
@@ -226,7 +244,14 @@
   max-width: 35rem;
   height: 17.5rem;
   border: none;
+  float: none; /* Added for float */
+  position: relative; /* Added for positioning */
 }
+
+
+
+
+
 /* MIX FLUID AND FIXED page Arcane css */
 #ArcaneCSS header {
   background-color: #C7E1FF;
