@@ -108,12 +108,6 @@
 #ResumeCSS section {
   margin: 30px 0;
 }
-
-
-
-
-
-
 /*FLUID ONLY ColorScheme css page*/
 /* Basic Page Styling */
 /* Body Styling */
@@ -134,8 +128,8 @@
   margin-bottom: 2rem;
   width: 100%;
   text-align: center;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 #ColorCSS header h2 {
   margin-top: 0;
@@ -149,14 +143,14 @@
   max-width: 80%;
   margin: 0 auto;
   box-shadow: 0 0.2rem 0.5rem #E068;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 /* Navigation Styling */
 #ColorCSS nav {
   margin-top: 2rem;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 #ColorCSS nav ul {
   list-style-type: none;
@@ -166,8 +160,8 @@
   width: 90%;
   margin: 0 auto;
   gap: 1rem;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 #ColorCSS nav ul li {
   flex: 1;
@@ -176,8 +170,8 @@
   border-radius: 0.5rem;
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 0.2rem 0.5rem #E068;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 /* Main Content Styling */
 #ColorCSS .colorblock, .conclusion {
@@ -197,15 +191,15 @@
   width: 50%;
   max-width: 100%;
   height: auto;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none;
+  position: relative; 
 }
 /* Header and Paragraph Styling */
 #ColorCSS h1, h2 {
   color: green;
   text-align: center;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 #ColorCSS p, .conclusion p {
   color: green;
@@ -213,15 +207,15 @@
   font-size: 1.25rem;
   text-align: center;
   margin: 0;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 #ColorCSS h2 {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   color: green;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 /* Conclusion Styling */
 #ColorCSS .conclusion h2 {
@@ -235,8 +229,8 @@
   font-family: Verdana, Arial, sans-serif;
   font-size: 1.25rem;
   color: black;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
 #ColorCSS .conclusion iframe {
   margin-top: 1.25rem;
@@ -244,14 +238,9 @@
   max-width: 35rem;
   height: 17.5rem;
   border: none;
-  float: none; /* Added for float */
-  position: relative; /* Added for positioning */
+  float: none; 
+  position: relative; 
 }
-
-
-
-
-
 /* MIX FLUID AND FIXED page Arcane css */
 #ArcaneCSS header {
   background-color: #C7E1FF;
